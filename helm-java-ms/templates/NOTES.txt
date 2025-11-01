@@ -1,0 +1,8 @@
+Thank you for installing {{ .Chart.Name }}!
+
+To access your application on Minikube (NodePort):
+  1. Run: minikube service --url {{ include "simple-java-ms.fullname" . }}
+  2. Or open: http://<minikube-ip>:{{ .Values.service.nodePort }}
+
+To uninstall:
+  helm uninstall {{ include "simple-java-ms.fullname" . }}

@@ -1,0 +1,15 @@
+replicaCount: 3
+image:
+  repository: krishc145/simple-java-ms
+  tag: krishna
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30082
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi

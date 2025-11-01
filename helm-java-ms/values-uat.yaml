@@ -1,0 +1,8 @@
+replicaCount: 2
+image:
+  repository: krishc145/simple-java-ms
+  tag: krishna
+service:
+  type: NodePort
+  port: 8080
+  nodePort: 30081

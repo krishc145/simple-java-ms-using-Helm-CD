@@ -1,0 +1,9 @@
+apiVersion: v2
+name: simple-java-ms
+description: A simple Helm chart for the simple-java-ms microservice
+type: application
+version: 0.1.0
+appVersion: "0.0.1"
+maintainers:
+  - name: krishc145
+    email: krish@example.com
