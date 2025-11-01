@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: krishc145/simple-java-ms
-  tag: krishna
+  tag: v1.0.0
   pullPolicy: IfNotPresent
 
 service:
